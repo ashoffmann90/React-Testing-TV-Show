@@ -31,6 +31,8 @@ export default function App() {
     return <h2>Fetching data...</h2>;
   }
 
+  
+
   return (
     <div className="App">
       <img data-testid='posterimg' className="poster-img" src={show.image.original} alt={show.name} />
